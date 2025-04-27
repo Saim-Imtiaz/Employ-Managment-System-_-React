@@ -2,7 +2,7 @@ import { useContext, useEffect, useState } from 'react'
 import Login from './components/auth/Login'
 // import AdminDashboard from './components/dashBoard/adminDashboard'
 import AdminDashboard from "./components/dashBoard/AdminDashboard"
-import EmployeDashboard from './components/dashBoard/employeDashboard'
+import EmployeDashboard from './components/dashBoard/EmployeDashboard'
 import { getLocalStorage, setLocalStorage } from './utils/localStorage'
 import { AuthContext } from './context/AuthProvider'
 
